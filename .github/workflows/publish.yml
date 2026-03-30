@@ -62,7 +62,7 @@ jobs:
 
     environment:
       name: pypi
-      url: https://pypi.org/p/wizardai-sdk
+      url: https://pypi.org/p/wizardenv
 
     permissions:
       id-token: write   # Required for Trusted Publisher (OIDC)
