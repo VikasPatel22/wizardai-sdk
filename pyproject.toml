@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wizardai-sdk"
-version = "2.1.0"
+version = "2.1.1"
 description = "All-in-one AI SDK for conversational AI, vision, and speech powered by Sagittarius Labs."
 readme = "README.md"
 authors = [{ name = "Vikas Patel", email = "your-email@example.com" }]
