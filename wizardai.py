@@ -8,7 +8,7 @@ Combines conversational AI, computer vision, speech I/O, memory
 management, and a flexible plugin system into a single importable file.
 
 Author  : WizardAI Contributors
-Version : 2.1.2
+Version : 2.1.3
 License : MIT
 PyPI    : pip install wizardai-sdk
 
