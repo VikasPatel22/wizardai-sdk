@@ -10,7 +10,7 @@ readme_path = Path(__file__).parent / "README.md"
 long_description = readme_path.read_text(encoding="utf-8") if readme_path.exists() else ""
 
 # ✅ Read version SAFELY - only extract the __version__ line
-version = "1.0.0"
+version = "1.0.4"
 init_path = Path(__file__).parent / "wizardai" / "__init__.py"
 if init_path.exists():
     for line in init_path.read_text(encoding="utf-8").splitlines():
