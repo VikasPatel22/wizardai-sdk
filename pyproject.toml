@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wizardai-sdk"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name = "WizardAI Contributors" }
 ]
@@ -13,7 +13,6 @@ readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
 
-# ✅ CORE dependencies only (always installed)
 dependencies = [
     "requests>=2.28.0",
     "openai>=1.0.0",
@@ -21,54 +20,39 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-# pip install wizardai-sdk[vision]
 vision = [
     "opencv-python>=4.7.0",
     "numpy>=1.24.0",
 ]
-
-# pip install wizardai-sdk[speech]
 speech = [
     "SpeechRecognition>=3.10.0",
     "pyttsx3>=2.90",
-    "pyaudio>=0.2.13",
     "gtts>=2.3.0",
     "pygame>=2.4.0",
 ]
-
-# pip install wizardai-sdk[whisper]
 whisper = [
     "openai-whisper>=20230918",
 ]
-
-# pip install wizardai-sdk[full]
 full = [
     "opencv-python>=4.7.0",
     "numpy>=1.24.0",
     "SpeechRecognition>=3.10.0",
     "pyttsx3>=2.90",
-    "pyaudio>=0.2.13",
     "gtts>=2.3.0",
     "pygame>=2.4.0",
     "openai-whisper>=20230918",
 ]
-
-# pip install wizardai-sdk[dev]  ← for contributors only
 dev = [
     "pytest>=7.0",
     "pytest-cov>=4.0",
     "black>=23.0",
-    "isort>=5.12",
     "ruff>=0.1.0",
-    "mypy>=1.0",
     "twine>=4.0",
     "build>=0.10",
 ]
 
 [project.urls]
 Homepage = "https://github.com/VIkasPatel22/wizardai-sdk"
-Repository = "https://github.com/VIkasPatel22/wizardai-sdk"
-Issues = "https://github.com/VIkasPatel22/wizardai-sdk/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
