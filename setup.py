@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name="wizardai-sdk",
-    version="2.1.1",
+    name="wizardenv",
+    version="2.1.2",
     author="Vikas Patel",
     description="All-in-one AI SDK powered by Sagittarius Labs",
     long_description=open("README.md").read(),
